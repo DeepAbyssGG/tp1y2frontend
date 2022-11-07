@@ -1,6 +1,6 @@
+// const URL = "http://localhost:4001/apitareas/tareas"
 const URL = process.env.REACT_APP_API_TAREAS;
-
-
+console.log(URL);
 
 export const consultarAPI = async()=>{
     try{
